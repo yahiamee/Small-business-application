@@ -1,0 +1,25 @@
+<ion-view view-title="تقنيات زراعية" align-title="left">
+    <ion-content style="background: url(img/login.jpg) center; background-size: cover;">
+        <div class="hero no-header flat">
+            <div class="content">
+                <div class="app-icon"></div>
+            </div>
+        </div>
+		<form class="list"  dir="rtl">
+            <ion-md-input placeholder="اسم المستخدم" ng-model="user.email" highlight-color="balanced" type="email"></ion-md-input>
+            <ion-md-input placeholder="كلمة المرور" ng-model="user.password" highlight-color="energized" type="password"></ion-md-input>
+        
+		<div class="padding">
+		
+            <button ui-sref="app.profile" class="button button-full button-assertive ink icon-left ion-log-in"><b>دخــــول</b></button>
+			      		 <button ui-sref="app.up" class="button button-balanced button-block  icon-left ion-alert"><b>اضغط للتسجيل </b></button
+        <!-- ng-click="login()" -->
+		</form>
+		</div>
+        <div class="button-bar social-login">
+              <button ui-sref="app.friends" class="button button-small button-border icon-left ion-android-call button-assertive-900">اتصل بنا</button>
+            <button ui-sref="app.activity" class="button button-small button-border icon-left ion-android-person button-calm-900">المطورين</button>
+            <button ui-sref="app.about" class="button button-small button-border icon-left ion-android-alert button-positive-900">عن التطبيق</button>
+        </div>
+    </ion-content>
+</ion-view>

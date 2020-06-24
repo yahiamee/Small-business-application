@@ -1,0 +1,50 @@
+<ion-view view-title="تقنيات زراعية">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/profile-bg.jpg');">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/daenerys.jpg');"></div>
+                <h3><a class="light"><b>تاي الزراعية</b></a></h3>
+                <h4>مرحبا بك</h4>
+            </div>
+        </div>
+         <div class="tabs tabs-dark tabs-icon-top static">
+            <a ui-sref="app.activity" class="tab-item">
+                <i class="icon ion-arrow-graph-up-right"></i><b> رسالة </b>
+            </a>
+            <a ui-sref="app.about" class="tab-item">
+                <i class="icon ion-android-people"></i><b>بياناتي </b>
+            </a>
+            <a ui-sref="app.gallery" class="tab-item">
+                <i class="icon ion-images"></i><b> طلباتي </b>
+            </a>
+
+        </div>
+<p></p>        <div class="list animate-fade-slide-in-right" >
+            <a ui-sref="app.gallery" class="item item-avatar item-icon-right">
+                <img src="img/p.jpg">
+                <h2 align="right"><b>قائمة البذور</b></h2>
+                <p>البذور المتوفرة بالشركة</p>
+            </a>
+           <a ui-sref="app.friends" class="item item-avatar item-icon-right">
+                <img src="img/m.jpg">
+                <h2 align="right"><b>قائمة الأسمدة</b></h2>
+                <p>الأسمدة المتوفرة بالشركة</p>
+            </a>
+			<!-- <a ui-sref="app.up" class="item item-avatar item-icon-right">
+                <img src="img/nn.jpg">
+                <h2 align="right"><b>التسجيل</b></h2>
+                <p>من هنا يمكنك التسجيل بالتطبيق</p>
+            </a> -->
+           <a ui-sref="app.about" class="item item-avatar item-icon-right">
+                <img src="img/a.jpg">
+                <h2 align="right"><b>طلب أو استشارة</b></h2>
+                <p>تقديم طلب أو استشارة</p>
+            </a>
+         <!--   <a ui-sref="app.msg" class="item item-avatar item-icon-right">
+                <img src="img/a.jpg">
+                <h2 align="right"><b>رسالة </b></h2>
+                <p>  ارسال رسالة او اقتراح للادارة </p>
+            </a> -->
+        </div>
+    </ion-content>
+</ion-view>
